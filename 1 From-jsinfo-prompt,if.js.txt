@@ -1,0 +1,7 @@
+let nameOfJavaScript = prompt('What is the “official” name of JavaScript?', '');
+
+if (nameOfJavaScript == 'ECMAScript') {
+  alert( 'Right!' );
+} else {
+  alert( 'Didn’t know? ECMAScript!' );
+}
