@@ -1,0 +1,16 @@
+const number = +prompt('Enter the number from 0 to 3', '');
+
+switch (number) {
+  case 0:
+    alert( 'Your number is 0' );
+    break;
+    
+  case 1:
+    alert( 'Your number is 1' );
+    break;
+    
+  case 2:
+  case 3:
+    alert( 'Your number is 2 or 3' );
+    break;
+}
