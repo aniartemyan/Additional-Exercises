@@ -1,0 +1,17 @@
+// option 1
+
+function getMin(a, b) {
+  if (a < b) {
+    return a;
+  }
+  return b;
+}
+console.log( getMin(3, -1) );
+
+
+// option 2
+
+function getMin(a, b) {
+  return (a < b) ? a : b;
+}
+console.log( getMin(-71, -1) );
